@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: linear-gradient(90deg, #3366cc, #6699ff);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #2554a3;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+nav {
+    background-color: #333;
+}
+
+.navigasi {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigasi li {
+    position: relative;
+}
+
+.navigasi a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navigasi a:hover {
+    background-color: #555;
+}
+
+
+main {
+    padding: 30px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.konten-gambar {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.profil-section {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.galeri-section {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.galeri-gambar {
+    width: 90%;
+    max-width: 500px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.caption {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.form-section {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #3366cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2554a3;
+}
+
+
+.kontak-section {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.kontak-section a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.kontak-section a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+{ 
+    scroll-behavior: smooth;
+}
